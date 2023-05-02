@@ -17,19 +17,19 @@
                 <p class="barra__nombre">Viaje</p>
             </div>
             <nav class="barra__navegacion">
-                <a href="#">Lugares para Hospedarte</a>
-                <a href="#">Experiencias</a>
-                <a href="#">Experiencias en Linea</a>
+                <a class="barra__link" href="#">Lugares para Hospedarte</a>
+                <a class="barra__link" href="#">Experiencias</a>
+                <a class="barra__link" href="#">Experiencias en Linea</a>
             </nav>
             <nav class="barra__login">
-                <a href="#">Hazte Anfitrion</a>
+                <a class="barra_link" href="#">Hazte Anfitrion</a>
             </nav>
         </div>
 
         <form class="formulario contenedor">
             <div class="formulario__campo">
                 <label class="formulario__label" for="ubicacion">Ubicacion</label>
-                <input class="formulario__input" id="ubicacion" type="text" placeholder="¿A donde viajas?">
+                <input class="formulario__input" id="ubicacion" type="text" placeholder="¿Donde viajas?">
             </div>
             <div class="formulario__campo">
                 <label class="formulario__label" for="llegada">Llegada</label>
@@ -44,7 +44,7 @@
                 <input class="formulario__input" id="huespedes" type="number" placeholder="¿Cuantos?">
             </div>
             <div class="formulario__campo">
-                <input class="formulario__input" type="submit" value="Buscar">
+                <input class="formulario__submit" type="submit" value="Buscar">
             </div>
         </form>
 
@@ -53,5 +53,105 @@
             <a class="header__busqueda-boton" href="#">Busqueda Flexible</a>
         </div>
     </header>
+
+    <section class="destinos seccion">
+        <h2 class="destinos__heading">Descubre alojamientos populares</h2>
+        <ul class="destinos__grid">
+            <li class="destino">
+                <div class="destino__imagen">
+                    <img src="build/img/icono_destino_1.png" alt="imagen destino">
+                </div>
+                <div class="destino__informacion">
+                    <h3 class="destino__nombre">New York</h3>
+                    <p class="destino__distancia">4 horas en avion</p>
+                </div>
+            </li>
+            <li class="destino">
+                <div class="destino__imagen">
+                    <img src="build/img/icono_destino_2.png" alt="imagen destino">
+                </div>
+                <div class="destino__informacion">
+                    <h3 class="destino__nombre">Paris</h3>
+                    <p class="destino__distancia">4 horas en avion</p>
+                </div>
+            </li>
+            <li class="destino">
+                <div class="destino__imagen">
+                    <img src="build/img/icono_destino_3.png" alt="imagen destino">
+                </div>
+                <div class="destino__informacion">
+                    <h3 class="destino__nombre">San Francisco</h3>
+                    <p class="destino__distancia">4 horas en avion</p>
+                </div>
+            </li>
+            <li class="destino">
+                <div class="destino__imagen">
+                    <img src="build/img/icono_destino_4.png" alt="imagen destino">
+                </div>
+                <div class="destino__informacion">
+                    <h3 class="destino__nombre">Egipto</h3>
+                    <p class="destino__distancia">4 horas en avion</p>
+                </div>
+            </li>
+            <li class="destino">
+                <div class="destino__imagen">
+                    <img src="build/img/icono_destino_5.png" alt="imagen destino">
+                </div>
+                <div class="destino__informacion">
+                    <h3 class="destino__nombre">Londres</h3>
+                    <p class="destino__distancia">4 horas en avion</p>
+                </div>
+            </li>
+            <li class="destino">
+                <div class="destino__imagen">
+                    <img src="build/img/icono_destino_6.png" alt="imagen destino">
+                </div>
+                <div class="destino__informacion">
+                    <h3 class="destino__nombre">Italia</h3>
+                    <p class="destino__distancia">4 horas en avion</p>
+                </div>
+            </li>
+            <li class="destino">
+                <div class="destino__imagen">
+                    <img src="build/img/icono_destino_7.png" alt="imagen destino">
+                </div>
+                <div class="destino__informacion">
+                    <h3 class="destino__nombre">India</h3>
+                    <p class="destino__distancia">4 horas en avion</p>
+                </div>
+            </li>
+            <li class="destino">
+                <div class="destino__imagen">
+                    <img src="build/img/icono_destino_8.png" alt="imagen destino">
+                </div>
+                <div class="destino__informacion">
+                    <h3 class="destino__nombre">Grecia</h3>
+                    <p class="destino__distancia">4 horas en avion</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="lugares contenedor seccion">
+        <h2 class="lugares__heading">Vive en cualquier lugar del mundo</h2>
+        <div class="lugares__grid">
+            <div class="lugar">
+                <img class="lugar__imagen" src="build/img/vive_1.jpg" alt="seccion vive">
+                <p class="lugar__nombre">Escapadas al aire libre</p>
+            </div>
+            <div class="lugar">
+                <img class="lugar__imagen" src="build/img/vive_2.jpg" alt="seccion vive">
+                <p class="lugar__nombre">Alojamientos Unicos</p>
+            </div>
+            <div class="lugar">
+                <img class="lugar__imagen" src="build/img/vive_3.jpg" alt="seccion vive">
+                <p class="lugar__nombre">Alojamientos Enteros</p>
+            </div>
+            <div class="lugar">
+                <img class="lugar__imagen" src="build/img/vive_4.jpg" alt="seccion vive">
+                <p class="lugar__nombre">Con tu mascota</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
