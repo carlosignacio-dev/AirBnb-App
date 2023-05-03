@@ -3,6 +3,12 @@
 
 .destinos {
 
+    @include m.tablet { 
+        &__heading {
+            margin-left: 5rem;
+        }        
+    }
+
     &__grid {
         @include m.grid(1, 2rem);
 
